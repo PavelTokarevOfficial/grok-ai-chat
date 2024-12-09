@@ -34,6 +34,7 @@ const fetchGrok = async () => {
     const headers = {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${apiKey}`,
+      "Access-Control-Allow-Origin": 'https://api.x.ai'
     };
 
     let data = {
